@@ -664,8 +664,9 @@ class MangaByUrlTab(QWidget):
         for g in manga.genres:
             chip = QLabel(g.name)
             chip.setStyleSheet(f"""
-                background: {Colors.ACCENT_PRIMARY}33;
-                color: {Colors.ACCENT_PRIMARY};
+                background: {Colors.ACCENT_PRIMARY};
+                color: white;
+                font-weight: bold;
                 border: none;
                 border-radius: 10px;
                 padding: 2px 10px;
